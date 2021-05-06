@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tetris</title>
+  </head>
+  <body>
+    <section>
+      <div>
+        <h3>Points:</h3>
+        <h4 class="points">0</h4>
+      </div>
+      <canvas class="mainArena" width="200" height="360"></canvas>
+      <canvas class="nextArena" width="120" height="120"></canvas>
+      <br />
+      <div class="options">
+        <select class="themeSelect">
+          <option value="default">Default</option>
+          <option value="dracula">Dracula</option>
+          <option value="vaporwave">Vaporwave</option>
+        </select>
+        <br />
+        <br />
+        <button class="start">Start</button>
+      </div>
+    </section>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+:root {
+  --bg: #191524;
+  --button-color: #ff4373;
+  --text-color: #e9e9e9;
+}
+
+* {
+  outline: none;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: sans-serif;
+  color: var(--text-color);
+}
+
+h4 {
+  text-align: center;
+}
+
+canvas {
+  border: 1px solid #deb01b;
+}
+
+section {
+  margin: auto;
+  width: 30%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  background-color: #191520;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.start {
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  width: 10vw;
+  background-color: var(--button-color);
+  color: var(--text-color);
+  font-weight: bold;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-align: center;
+}
+.start:hover {
+  transform: scale(1.15, 1.15);
+}
+
+.themeSelect {
+  border: none;
+  height: 4vh;
+  border-radius: 25px;
+  background-color: var(--button-color);
+  color: var(--text-color);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.themeSelect:hover {
+  transform: scale(1.05, 1.05);
+}
